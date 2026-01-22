@@ -29,7 +29,7 @@ AddBtn.addEventListener('click', (e) => {
 
     let delbtn = document.createElement('button');
     delbtn.textContent = 'Delete';
-    delbtn.className = 'bg-red-500 text-white px-2 rounded';
+    delbtn.className = 'bg-red-500 text-white p-2 rounded';
 
     // ✔ checkbox only marks (no delete)
     checkbox.addEventListener('change', () => {
